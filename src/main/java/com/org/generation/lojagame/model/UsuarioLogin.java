@@ -4,23 +4,15 @@ public class UsuarioLogin {
 
 	private String nome;
 
-	private String login;
-	
+	private String usuario;
+
 	private String senha;
 
 	private String token;
 
-	
-	
-	public String getLogin() {
-		return login;
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
 	}
-
-	public void setLogin(String login) {
-		this.login = login;
-	}
-
-	
 
 	public String getNome() {
 		return nome;
@@ -47,7 +39,7 @@ public class UsuarioLogin {
 	}
 
 	public String getUsuario() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return usuario;
 	}
 }

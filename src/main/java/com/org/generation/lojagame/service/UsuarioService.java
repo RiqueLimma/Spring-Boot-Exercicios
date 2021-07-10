@@ -70,7 +70,7 @@ public class UsuarioService {
 
 				usuarioLogin.get().setToken(authHeader);				
 				usuarioLogin.get().setNome(usuario.get().getNome());
-				usuarioLogin.get().setSenha(usuario.get().getSenha());
+				
 				
 				return usuarioLogin;
 
